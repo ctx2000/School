@@ -1,0 +1,10 @@
+{
+    "TITLE": "Login",
+    "WELCOME":"Welcome!",
+    "SIGNIN":"Sign in to continue",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "BTN_LOGIN": "Login",
+    "REMEMBER_ME":"Remember me",
+    "FORGOT_PASSWORD": "Forgot Password?"
+  }
