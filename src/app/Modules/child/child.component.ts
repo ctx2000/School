@@ -9,7 +9,7 @@ import { Subject } from 'rxjs';
   styleUrl: './child.component.scss'
 })
 export class ChildComponent {
-  @Input() receiveMessage :string = "";
+  @Input() receiveMessage :string = "no message";
 
   @Output() sendFromChild = new EventEmitter<string>();
 

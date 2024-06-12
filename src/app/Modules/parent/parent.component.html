@@ -1,3 +1,4 @@
-<p>parent works!</p>
+<p (click)="onClickService()">parent works!</p>
 {{showMessageFromChild}}
+<button (click)="onClickService()">click to call service</button>
 <app-child [receiveMessage]="messageFromParent" (sendFromChild)="receiveFromChild($event)"></app-child>
